@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(145, 142, 142);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container, .signup-container {
+    padding: 20px;
+    width: 370px;
+    text-align: center;
+    border-radius: 15px;
+    background-image: linear-gradient(to top, #0fcaca 0%, #9962db 100%);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+h1 {
+    color: white;
+    margin: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+
+input {
+    width: 335px;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+button {
+    width: 355px;
+    padding: 10px;
+    margin: 10px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(to top, #0ab4e4 0%, #005bea 100%);
+    color: rgb(223, 216, 216);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.links {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: bold;
+}
+
+.links a {
+    color: white;
+    text-decoration: underline;
+}
